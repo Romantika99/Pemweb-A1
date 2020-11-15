@@ -1,0 +1,32 @@
+.siderbar {
+  float: left;
+  height: auto;
+  width: 300px;
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  padding-bottom: 300px;
+}
+.siderbar ul {
+  list-style-type: none;
+  padding: 0;
+  width: 200px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+.siderbar li a {
+  display: block;
+  color: #000;
+  padding: 10px 16px;
+  width: 250px;
+  text-decoration: none;
+}
+.siderbar li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*# sourceMappingURL=nested.css.map */
