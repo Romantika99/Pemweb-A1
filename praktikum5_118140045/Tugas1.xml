@@ -1,0 +1,33 @@
+<?xml version=1?>
+<dataDiri>
+    <nama>
+        <awal>Romantika</awal>
+        <akhir>Banjarnahor</awal>
+    </nama>
+
+    <status>Mahasiswa</status>
+
+    <jenisKelamin>Perempuan</jenisKelamin>
+
+    <alamat>
+        <jalan>jl.manggs 2,pemda</jalan>
+        <kecamatan>Way Huwi</kecamatan>
+        <kabupaten>Lampung Selatan</kabupaten>
+        <Provinsi>Lampung</Provinsi>
+    </alamat>
+
+    <orangTua>
+        <bapak>Donny Banjarnahor</bapak>
+        <ibu>Elna Simanullang</ibu>
+    </orangTua>
+    
+    <socialMedia>
+        <instagram>roman_banjarnahor</instagram>
+    </socialMedia>
+
+    <hobi>
+        <hobi1>Nyanyi</hobi1>
+        <hobi2>Nonton</hobi2>
+        
+    </hobi>
+</dataDiri>

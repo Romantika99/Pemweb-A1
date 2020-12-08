@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas 2</title>
+</head>
+<body>
+    <div name = "nama">Romantika Banjarnahor</div>
+    <div class="class">118140045 PemWeb A</div>
+
+    <p><button onclick="berubahWarna(document.getElementsByName('nama'), 'red', 'array')">Ubah getElementByName</button>
+    </p>
+    <p><button onclick="berubahWarna(document.getElementsByClassName('class'), 'green', 'array')">Ubah getElementByClassName</button>
+    </p>
+    <p><button onclick="berubahWarna(document.getElementsByTagName('h1'), 'blue', 'array')">Ubah getElementByTagName</button>
+    </p>
+    <p><button onclick="berubahWarna(document.querySelector('p'), 'yellow', 'nonarray')">Ubah querySelector</button>
+    </p>
+    <p><button onclick="berubahWarna(document.querySelectorAll('p'), 'purple', 'array')">Ubah querySelectorAll</button>
+    </p>
+<script>
+    function berubahWarna(target, warna, bentuk){
+        if(bentuk == 'array'){
+            for(i = 0 ; i < target.length ; i++){
+                target[i].style.color = warna;
+            }
+        }
+        else{
+            target.style.color = warna;
+        }
+    }
+</script>
+</body>
+</html>

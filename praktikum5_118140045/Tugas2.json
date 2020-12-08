@@ -1,0 +1,28 @@
+{
+    "datadiri": {
+        "nama": {
+            "awal": "Romantika",
+            "akhir": "Banjarnahor"
+        },
+        "status": "Mahasiswa",
+        "jeniskelamin": "Perempuan",
+        "alamat": {
+         
+            "Jalan"    : "Jl. Manggis 2 Pemda",
+            "Kecamatan": "Way Huwi",
+            "Kabupaten": "Lampung Selatan",
+            "Provinsi" : "Lampung"
+        },
+        "orangtua": {
+            "bapak": "Donny Banjarnahor",
+            "ibu"  : "Elna Simanullang"
+        },
+        "sosialmedia"  : {
+            "instagram"   : "roman_banjarnahor"
+        },
+        "hobi": {
+            "hobi1": "nyanyi",
+            "hobi2": "nonton"
+        }
+    }
+}
